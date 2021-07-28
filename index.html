@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Видеомонтаж</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" href="head.svg" type="image/svg">
+        <script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
+        <script type="text/javascript">
+        VK.init({apiId: 7910341, onlyWidgets: true});
+        </script>
+    </head>
+    <body>
+        <div class="modal-bg"></div>
+        <div class="modal">
+            <a class="link-text"></a>
+        </div>
+        <header class="header">
+            <span></span>
+            <h2>Видеомонтаж</h2>
+            <p>
+                Здравствуйте, меня зовут Степан. Владею программными продуктами:<br>
+                Adobe After Effects (работаю в версии CC 2019);<br>
+                Afobe Premiere Pro (CC 2018);<br>
+                Sony VEGAS Pro (16 и 13).<br><br>
+                Имею опыт работы с Audacity (удаление шума из записи, изменение высоты голоса, изменение скорости записи и т.д.).<br>
+                Первым трём обратившимся монтаж бесплатно!
+            </p>
+        </header>
+        <div class="examples">
+            <h2>Примеры работ</h2>
+            <p>Здесь будут примеры работ</p>
+        </div>
+        <div class="contacts-m">
+            <h2>Контакты</h2>
+            <a href="javascript:a.innerHTML = 'Скопировано'; navigator.clipboard.writeText('grechanichenkos@yandex.ru'); setTimeout(function() {a.innerHTML = 'Электронная почта'}, 1000)" class="email-m">Электронная почта</a>
+            <a href="https://disk.yandex.ru/d/tXVXttohc5Jc_A" class="yadisk-m">Яндекс.Диск</a>
+            <a href="https://drive.google.com/drive/folders/1h6zywX_9QpAjze7a59cEieSenaLMdG6a?usp=sharing" class="gdisk-m">Google drive</a>
+            <a class="vk-m closed">Группа в ВК</a>
+        </div>
+        <div class="reviews">
+            <h2>Отзывы</h2>
+        </div>
+        <div class="comments">
+            <h2>Комментарии</h2>
+            <div id="vk_comments"></div>
+            <script type="text/javascript">
+            VK.Widgets.Comments("vk_comments", {limit: 20, attach: "*", autoPublish: 1});
+            </script>
+        </div>
+        <footer class="footer">
+            <div class="vk">
+                <h2>ВК</h2>
+            </div>
+            <div class="mail">
+                <h2>@</h2>
+            </div>
+            <div class="yadisk">
+                <svg>
+                    <image href="yadisk.svg" height="55"/>
+                </svg>
+            </div>
+            <div class="gdisk">
+                <svg>
+                    <image href="gdisk.svg" height="60"/>
+                </svg>
+            </div>
+            <div class="yt">
+                <svg>
+                    <image href="yt.svg" height="60"/>
+                </svg>
+            </div>
+        </footer>
+        <script src="qr.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
